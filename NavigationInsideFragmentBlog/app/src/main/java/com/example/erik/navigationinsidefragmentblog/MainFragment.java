@@ -34,7 +34,6 @@ public class MainFragment extends Fragment {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Random rnd = new Random();
                 int red = (int) (Math.random()* 255);
                 int green = (int) (Math.random()* 255);
                 int blue = (int) (Math.random()* 255);
